@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("li").on({
+     
+        // mouseleave: function(){
+        //     $(this).css("background-color", "white");
+        // }, 
+         click: function(){
+            $("*").css("background-color", "white"); 
+            $(this).css("background-color", "lightgray");
+        }  
+    });
+});
+
+</script>
+</head>
+<body>
+
+<p>List 1:</p>
+<ul>
+  <li id="l1">Coffee</li>
+  <li id="l2">Milk</li>
+  <li id="l3">Tea</li>
+</ul>
+
+
+
+</body>
+</html>
